@@ -1,8 +1,0 @@
-
-download-new
-
-This operation expects no arguments. It's equivalent to the "download"
-operation, applied to every package in the "new" state.
-
-Also see: download.
-

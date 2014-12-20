@@ -1,8 +1,0 @@
-
-erase-cache
-
-This operation expects no arguments. It will remove every file in the package
-cache.
-
-Also see: clean-cache.
-

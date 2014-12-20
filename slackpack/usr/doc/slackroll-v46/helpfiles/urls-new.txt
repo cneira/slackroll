@@ -1,8 +1,0 @@
-
-urls-new
-
-This operation expects no arguments. It is related to the "urls" operation,
-applying it to the packages that are currently in the state "new".
-
-Also see: urls.
-

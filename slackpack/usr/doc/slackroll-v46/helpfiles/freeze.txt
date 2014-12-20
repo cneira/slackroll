@@ -1,7 +1,0 @@
-
-freeze PKG...
-
-This operation is an alias for "frozen".
-
-Also see: frozen.
-

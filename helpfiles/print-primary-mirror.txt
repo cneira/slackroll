@@ -1,7 +1,0 @@
-
-print-primary-mirror
-
-This operation expects no arguments and prints the primary mirror URL.
-
-Also see: set-mirror, set-primary-mirror.
-

@@ -1,5 +1,0 @@
-
-version
-
-This operation expects no arguments and will print the program version.
-

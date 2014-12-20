@@ -1,5 +1,17 @@
 import subprocess
-import _sqlite3
+import sqlite3
+
+# Current database model has been designed like this :
+#   Table : package ( id, pkg_name,version,author,depends,descripcion,type,content,id_provider)
+#   Table:  deps    ( id_package,id_file, filename,type)
+#   Table:  content ( id,filename,size,version,type)  
+#   Table:  type(id,name)
+#   Table:  provider(id,name,url)
+#   Table:  Repository(id,name,url,provider)
+
+
+
+
 
 def pkg_contents(p):
     out =[]
@@ -28,6 +40,11 @@ def check_libraries(elf):
         if i.find("NEEDED")!=-1:
             needed.append(i.split()[1])
     return needed
+
+
+
+
+
 
 
 

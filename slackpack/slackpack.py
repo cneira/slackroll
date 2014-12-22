@@ -70,6 +70,10 @@ def get_description_from_slack_file(file,pkgname):
     return l
 
 
+# out=pkg_contents("sbcl.tgz")
+# out=filterbydir("bin",out,"executable")
+# out = check_libraries(out[0])
+# print out
 
 out=get_description_from_slack_file('slack-desc','sbcl')
 
@@ -80,7 +84,3 @@ for i in out:
 
 init_db()
 
-# out=pkg_contents("sbcl.tgz")
-# out=filterbydir("bin",out,"executable")
-# out = check_libraries(out[0])
-# print out
